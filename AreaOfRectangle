@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "enter rectangle dimentions"
+read length breadth
+echo "Area of rectangle is : " $((${length}*${breadth}))

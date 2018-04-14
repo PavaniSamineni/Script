@@ -1,0 +1,36 @@
+#!/bin/bash
+echo "enter operation to be performed:"
+read operand
+echo "enter numbers"
+read num1 num2
+sum(){
+echo "sum of two numbers is :" $(($1+$2))
+}
+sub(){
+echo "substraction of two numbers is :" $(($1-$2))
+}
+mul(){
+echo "multiplication of two numbers is :" $(($1*$2))
+}
+div(){
+division=$(bc<<<"scale=3;$1/$2")
+echo "division of two numbers is : " ${division}
+}
+case ${operand} in
+     sum)
+        sum ${num1} ${num2}
+        ;;
+     sub)
+        sub ${num1} ${num2}
+        ;;
+     mul)
+        mul ${num1} ${num2}
+        ;;
+     div)
+        div ${num1} ${num2}
+        ;;
+     *)
+       echo "Entered wrong Operand, Please Select Operands in sum/sub/mul/div"
+       exit 1
+esac
+

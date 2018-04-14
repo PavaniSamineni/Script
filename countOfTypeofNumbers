@@ -1,0 +1,19 @@
+#!/bin/bash
+positive=0
+negative=0
+zero=0
+while read p
+do
+if [ $p -gt 0 ]
+then
+  positive=$((${positive}+1))
+elif [ $p -lt 0 ]
+then
+   negative=$((${negative}+1))
+else
+  zero=$((${zero}+1))
+fi
+done < inputNumbers
+echo "postive numbers count : " ${positive}
+echo "negative numbers count : " ${negative}
+echo "number of zeros : " ${zero}

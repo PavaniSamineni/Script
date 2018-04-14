@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "whatever hdfjff ksjdfhsdkf jfdhkdj fjdkjfhkjdjdfjhxdf " > abc.sh
+mv abc.sh abc.exe
+

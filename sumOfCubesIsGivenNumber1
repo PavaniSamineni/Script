@@ -1,0 +1,20 @@
+#!/bin/bash
+for (( i=1; i<=999; i++ ))
+do
+sum=0
+quotient=0
+remainder=0
+dividend=$i
+while [ ${quotient} -lt 0 ]
+do
+quotient=$((${dividend}/10))
+remainder=$(($i%10))
+temp=$((${remainder}*${remainder}*${remainder}))
+sum=$((${sum}+${temp}))
+dividend=${quotient}
+done
+if [ ${i} -eq ${sum} ]
+then
+echo "number is : $i"
+fi
+done

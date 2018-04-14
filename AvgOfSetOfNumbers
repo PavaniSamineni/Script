@@ -1,0 +1,11 @@
+#!/bin/bash
+sum=0
+counter=0
+while read p
+do
+   sum=$((${sum}+$p))
+   counter=$((${counter}+1))
+done<SetOfNumbers
+Avg=$(bc<<<"scale=3;${sum}/${counter}")
+echo "Average of set Numbers is : "${Avg}
+  

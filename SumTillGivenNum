@@ -1,0 +1,8 @@
+#!/bin/bash
+num=$1
+sum=0
+until [ ${num} -lt 1 ];do
+sum=$((${sum}+${num}))
+num=$((${num}-1))
+done
+echo "sum of numbers till given numbers is : " ${sum}

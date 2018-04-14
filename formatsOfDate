@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "date is :" $(date '+%d/%m/%y %H:%M:%S')
+echo "date 8 days ego : " $(date -d "8 days ago")
+echo "Next Sunday Date : " $(date -d "next Sunday")
+echo "date :" $(date '+%D %T')
+

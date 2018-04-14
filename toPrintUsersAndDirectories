@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "current home Directoriy : " $HOME
+echo "Currecnt user : " $(whoami)
+echo "today is : " $(date +%d/%m/%y)
+echo "current terminal number : " $(tty)
+echo "number of user logged in : " $(w)

@@ -1,0 +1,17 @@
+1.AvgOfSetOfNumbers - Write a shell script to calculate the average of a set of N number(set Of numbers is sending from SetOfNumbers)
+2.SumTillGivenNum -Write a Unix shell script to find the sum of number to given number.
+e.g. if entered number is 5 then 1+2+3+4+5(input number from Command line)
+3.CommandLineInputsToCalculator - Write a shell script to perform like calculator. It should ask for the number and operand from the user (input through command line when it asks for opearand and values)
+4.AreaOfRectangle - Write a shell script to calculate the area of rectangle. It should take the value from the command line. (we have to input length and breadth from command line when it asks)
+5.toPrintUsersAndDirectories - Write a Unix Shell Script which prints the following
+ a. Current home directory.
+ b. Current user name.
+ c. The message "Today is :" with current date in MM/dd/yy format
+ d. The message "No of users logged in :" with total no of current
+logged in users
+ e. The message "Terminal :” With you own terminal number
+6.PrintWordNTimes - Write a shell script that that takes as command line input a number N and a
+Word. it then prints the word n times., one word per line (input word and number as first and second arguments from Tarminal)
+7.ChangeFileExtention -Write a shell script to rename file having extension sh to exe
+8.countOfTypeofNumbers - Write a Unix shell script to accept 10 number and tell how many are +tive, -tive and zero. Also display the in ascending order. ( inputNumbers file is giving as to input the numbers andthen finding the count using while loop)
+9.
